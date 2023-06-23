@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct MasteryStepper: View {
+    @State private var masteryHoursRequired = 10000
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Stepper("\(masteryHoursRequired.formatted()) hours", value: $masteryHoursRequired, in: 10000...20000, step: 1000)
     }
 }
 

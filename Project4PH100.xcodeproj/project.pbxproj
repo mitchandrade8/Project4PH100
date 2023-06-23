@@ -11,6 +11,7 @@
 		74D967B92A45FC0000D2A59E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D967B82A45FC0000D2A59E /* ContentView.swift */; };
 		74D967BB2A45FC0100D2A59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D967BA2A45FC0100D2A59E /* Assets.xcassets */; };
 		74D967BE2A45FC0100D2A59E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D967BD2A45FC0100D2A59E /* Preview Assets.xcassets */; };
+		74D967C52A462F4900D2A59E /* MasteryStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D967C42A462F4900D2A59E /* MasteryStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		74D967B82A45FC0000D2A59E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74D967BA2A45FC0100D2A59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D967BD2A45FC0100D2A59E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74D967C42A462F4900D2A59E /* MasteryStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasteryStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				74D967B62A45FC0000D2A59E /* Project4PH100App.swift */,
 				74D967B82A45FC0000D2A59E /* ContentView.swift */,
+				74D967C42A462F4900D2A59E /* MasteryStepper.swift */,
 				74D967BA2A45FC0100D2A59E /* Assets.xcassets */,
 				74D967BC2A45FC0100D2A59E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D967C52A462F4900D2A59E /* MasteryStepper.swift in Sources */,
 				74D967B92A45FC0000D2A59E /* ContentView.swift in Sources */,
 				74D967B72A45FC0000D2A59E /* Project4PH100App.swift in Sources */,
 			);
